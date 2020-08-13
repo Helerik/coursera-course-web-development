@@ -1,0 +1,77 @@
+
+body {
+	background-color: lightyellow;
+}
+
+#header-nav {
+	background-color: lightblue;
+	border-radius: 0;
+}
+
+.navbar-brand {
+	height: auto;
+	margin: 10px auto 10px;
+}
+
+#logo {
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	width: 200px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#menu {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	width: 150px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 10px auto 10px;
+}
+
+section.content {
+	background-color: pink;
+	margin: 10px auto 20px;
+	padding: 10px;
+}
+
+section.content h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px auto 10px;
+}
+
+#nav-list a {
+	color: black;
+	font-weight: bold;
+}
+
+#nav-list a:hover {
+	background-color: #fff;
+}
+
+.navbar-nav{
+	margin: 0;
+}
+
+.navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+}
